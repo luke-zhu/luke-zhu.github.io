@@ -1,0 +1,4 @@
+baseURL = "https://luke-zhu.github.io/"
+languageCode = "en-us"
+title = "Luke Zhu"
+theme = "tale"
