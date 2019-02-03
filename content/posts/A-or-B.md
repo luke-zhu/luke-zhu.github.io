@@ -5,8 +5,8 @@ draft: false
 ---
 
 Every year while studying for final exams, I find myself
-doing the calculations to see whether I should aim for
-an A or study just enough for a B instead. Now that I'm
+doing the calculations for some class to see whether I should aim for
+an A or study just enough for a B instead (thanks to grade inflation). Now that I'm
 studying abroad in Edinburgh and forced to take every class pass/fail,
 I've ended up thinking about this question earlier.
 
