@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Luke Zhu</title>
-    <link>http://example.org/</link>
+    <link>https://luke-zhu.github.io/</link>
     <description>Recent content on Luke Zhu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 03 Feb 2019 17:54:17 +0000</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://luke-zhu.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Aim for an A or Settle for a B</title>
-      <link>http://example.org/posts/a-or-b/</link>
+      <link>https://luke-zhu.github.io/posts/a-or-b/</link>
       <pubDate>Sun, 03 Feb 2019 17:54:17 +0000</pubDate>
       
-      <guid>http://example.org/posts/a-or-b/</guid>
+      <guid>https://luke-zhu.github.io/posts/a-or-b/</guid>
       <description>Every year while studying for final exams, I find myself doing the calculations to see whether I should aim for an A or study just enough for a B instead. Now that I&amp;rsquo;m studying abroad in Edinburgh and forced to take every class pass/fail, I&amp;rsquo;ve ended up thinking about this question earlier.
 What I&amp;rsquo;ve noticed is that self-studying seems a lot more effective than just following the curriculum. It seems fairly easy to look at a courses material, search the internet, and create a curriculum that is personally more interesting and likely more useful to me in the future.</description>
     </item>
