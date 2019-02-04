@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Luke Zhu</title>
+    <link>https://luke-zhu.github.io/</link>
+    <description>Recent content on Luke Zhu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 04 Feb 2019 19:35:56 +0000</lastBuildDate>
+    
+	<atom:link href="https://luke-zhu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Avoiding data science</title>
+      <link>https://luke-zhu.github.io/posts/data-science/</link>
+      <pubDate>Mon, 04 Feb 2019 19:35:56 +0000</pubDate>
+      
+      <guid>https://luke-zhu.github.io/posts/data-science/</guid>
+      <description>I&amp;rsquo;ve been a teaching assistant for a Data Science Master&amp;rsquo;s program for the the past 3 semesters. However, I have absolutely zero plans to try to become a data scientist.
+Here are some of the reasons why:
+ Nearly all job positions require you to have an advanced degree even though common daily duties (A/B testing, training ML models, etc.) require of what&amp;rsquo;s taught in school to do well. Some say that the theory doesn&amp;rsquo;t matter but they want someone who can get the work done without hand holding.</description>
+    </item>
+    
+    <item>
+      <title>Aim for an A or Settle for a B</title>
+      <link>https://luke-zhu.github.io/posts/a-or-b/</link>
+      <pubDate>Sun, 03 Feb 2019 17:54:17 +0000</pubDate>
+      
+      <guid>https://luke-zhu.github.io/posts/a-or-b/</guid>
+      <description>Every year while studying for final exams, I find myself doing the calculations for some class to see whether I should aim for an A or study just enough for a B instead (thanks to grade inflation). Now that I&amp;rsquo;m studying abroad in Edinburgh and forced to take every class pass/fail, I&amp;rsquo;ve ended up thinking about this question earlier.
+What I&amp;rsquo;ve noticed is that self-studying seems a lot more effective than just following the curriculum.</description>
+    </item>
+    
+  </channel>
+</rss>
