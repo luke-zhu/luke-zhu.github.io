@@ -63,4 +63,3 @@ work on bringing education more into that area.
 - Designing your own curriculum is not only fun, but very educational. In the ~1 hour I spent
   browsing the internet, almost everything I read felt like crucial info that I needed to remember.
 - You have to self-learn once you're outside of school so why don't we start encouraging that now?
-- If my experiences as a TA are representative, professors don't spend nearly enough time designing/updating their courses.
