@@ -6,10 +6,20 @@
     <description>Recent content on Luke Zhu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 Feb 2019 19:35:56 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 06 Feb 2019 19:28:27 +0000</lastBuildDate>
     
 	<atom:link href="https://luke-zhu.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Coding More Quickly</title>
+      <link>https://luke-zhu.github.io/posts/coding-faster/</link>
+      <pubDate>Wed, 06 Feb 2019 19:28:27 +0000</pubDate>
+      
+      <guid>https://luke-zhu.github.io/posts/coding-faster/</guid>
+      <description>Write test cases. Identify cognitive load, then simplify the problem. Identify the quality level your code should reach. Do things more carefully. Get used to your tools Don&amp;rsquo;t learn new things.  Some ways to code more quickly:
+Write a test case to verify that your code works. Why: If you&amp;rsquo;re like me, you celebrate when your code work on the first try. If your code is marginally complicated, It&amp;rsquo;s less costly to make sure your code works before it&amp;rsquo;s in production.</description>
+    </item>
     
     <item>
       <title>Avoiding data science</title>
