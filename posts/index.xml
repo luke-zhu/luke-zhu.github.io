@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Luke Zhu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 06 Feb 2019 19:28:27 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 08 Feb 2019 22:58:36 +0000</lastBuildDate>
     
 	<atom:link href="https://luke-zhu.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Seeing the Big Picture with Software Architecture</title>
+      <link>https://luke-zhu.github.io/posts/big-picture-software-architecture/</link>
+      <pubDate>Fri, 08 Feb 2019 22:58:36 +0000</pubDate>
+      
+      <guid>https://luke-zhu.github.io/posts/big-picture-software-architecture/</guid>
+      <description>We all love it when that one person in a meeting once again tells everybody to &amp;ldquo;take a step back and think about the big picture.&amp;rdquo; I honestly would be that person for my team projects, but I&amp;rsquo;m currently stuck playing the role of &amp;ldquo;socially-incompetent programmer.&amp;rdquo;
+As cliche the advice to &amp;ldquo;think big picture&amp;rdquo; is, there is a lot of merit to it. Software projects generally fail not because the source code is terrible, but because of higher-level issues in the solution design and the management of the project.</description>
+    </item>
     
     <item>
       <title>Coding More Quickly</title>
