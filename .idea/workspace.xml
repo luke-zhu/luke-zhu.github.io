@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e41cfc09-2fa1-4ddd-ac64-135e097750d1" name="Default Changelist" comment="Create a 2nd post on data science">
-      <change afterPath="$PROJECT_DIR$/content/posts/coding-faster.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/posts/context-switching.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e41cfc09-2fa1-4ddd-ac64-135e097750d1" name="Default Changelist" comment="Add">
+      <change beforePath="$PROJECT_DIR$/content/posts/big-picture-software-architecture.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/posts/big-picture-software-architecture.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/categories/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/posts/a-or-b/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/posts/a-or-b/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/posts/coding-faster/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/posts/coding-faster/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/posts/data-science/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/posts/data-science/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/posts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/posts/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,11 +20,11 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/content/posts/coding-faster.md">
+        <entry file="file://$PROJECT_DIR$/content/posts/big-picture-software-architecture.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="157">
-                <caret line="85" column="11" selection-start-line="85" selection-start-column="4" selection-end-line="85" selection-end-column="11" />
+              <first_editor relative-caret-position="45">
+                <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
               </first_editor>
               <second_editor />
             </state>
@@ -27,6 +32,11 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>se</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -39,6 +49,9 @@
         <option value="$PROJECT_DIR$/content/posts/data-science.md" />
         <option value="$PROJECT_DIR$/content/posts/context-switching.md" />
         <option value="$PROJECT_DIR$/content/posts/coding-faster.md" />
+        <option value="$PROJECT_DIR$/content/posts/job.md" />
+        <option value="$PROJECT_DIR$/content/posts/systems.md" />
+        <option value="$PROJECT_DIR$/content/posts/big-picture-software-architecture.md" />
       </list>
     </option>
   </component>
@@ -52,6 +65,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -88,7 +102,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -128,7 +141,10 @@
       <workItem from="1549216381882" duration="6268000" />
       <workItem from="1549229961578" duration="8000" />
       <workItem from="1549308866425" duration="3900000" />
-      <workItem from="1549474107907" duration="5132000" />
+      <workItem from="1549474107907" duration="5222000" />
+      <workItem from="1549486806854" duration="105000" />
+      <workItem from="1549666683036" duration="273000" />
+      <workItem from="1549718757572" duration="5657000" />
     </task>
     <task id="LOCAL-00001" summary="Draft first post (A or B)">
       <created>1549221946304</created>
@@ -176,13 +192,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15308000" />
+    <option name="totallyTimeSpent" value="21433000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26171243" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27382874" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -196,7 +212,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32876712" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.30547947" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.30547947" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -329,8 +345,18 @@
     <entry file="file://$PROJECT_DIR$/content/posts/coding-faster.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="157">
-            <caret line="85" column="11" selection-start-line="85" selection-start-column="4" selection-end-line="85" selection-end-column="11" />
+          <first_editor relative-caret-position="660">
+            <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="45" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/posts/big-picture-software-architecture.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="45">
+            <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
           </first_editor>
           <second_editor />
         </state>
