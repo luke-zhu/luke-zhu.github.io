@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Luke Zhu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 08 Feb 2019 22:58:36 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 15 Feb 2019 10:55:35 +0000</lastBuildDate>
     
 	<atom:link href="https://luke-zhu.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>A Better Software Testing Curriculum</title>
+      <link>https://luke-zhu.github.io/posts/testing-curriculum/</link>
+      <pubDate>Fri, 15 Feb 2019 10:55:35 +0000</pubDate>
+      
+      <guid>https://luke-zhu.github.io/posts/testing-curriculum/</guid>
+      <description>I&amp;rsquo;m currently taking a class on software testing while abroad and one thing that&amp;rsquo;s really bothering me is the irrelevance of the material. In the first lecture, the professor talked about how testing mainly exists to improve software quality, which makes a lot of sense. However, the lectures since have been on things like how to divide the input space of a function into categories and calculating different code coverage metrics.</description>
+    </item>
     
     <item>
       <title>Seeing the Big Picture with Software Architecture</title>

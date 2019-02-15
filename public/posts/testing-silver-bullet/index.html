@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+		<title>
+				A Better Software Testing Curriculum &middot; Luke Zhu
+		</title>
+	
+		
+  		<link rel="stylesheet" href="/css/style.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700">
+	
+		
+		<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+	
+		
+		<link href="" rel="alternate" type="application/rss+xml" title="Luke Zhu" />
+	</head>
+	
+    <body>
+        		<nav class="nav">
+			<div class="nav-container">
+				<a href="/">
+					<h2 class="nav-title">Luke Zhu</h2>
+				</a>
+				<ul>
+    <li><a href="/about">About</a></li>
+    <li><a href="/">Posts</a></li>
+</ul>
+			</div>
+		</nav>
+
+        
+
+<main>
+	<div class="post">
+		<div class="post-info">
+    <span>Written by</span>
+        
+        <br>
+        <span>on&nbsp;</span><time datetime="2019-02-15 10:55:35 &#43;0000 UTC">February 15, 2019</time>
+</div>
+		<h1 class="post-title">A Better Software Testing Curriculum</h1>
+<div class="post-line"></div>
+
+		
+
+		
+
+<p>I&rsquo;m currently taking a class on software testing while abroad and
+one thing that&rsquo;s really bothering me is the irrelevance of the material.
+In the first lecture, the professor talked about how testing mainly exists
+to improve software quality, which makes a lot of sense. However, the lectures
+since have been on things like how to divide the input space of a function into categories and calculating different code coverage metrics.</p>
+
+<p>In my intro CS courses, I learned about unit tests, edge cases, and white-box vs. black-box testing.
+In this course, I&rsquo;m learning about the theory behind creating perfectly-tested programs.
+However, the most fundamental questions I&rsquo;ve had
+when writing my own test cases are barely even covered:</p>
+
+<ul>
+<li>How many tests should I write?</li>
+<li>What should I even test?</li>
+<li>Is the test I wrote good?</li>
+<li>How should I include a database or flat file in my test?
+
+<ul>
+<li>Should I even do this?</li>
+</ul></li>
+<li>Why are my tests so useless?</li>
+<li>What is the point of writing test cases?</li>
+</ul>
+
+<p>At this point, I end up reading an article on testing at least once a week.
+The worst part is that much of the advice given is some form of
+keep reading/writing test cases until you get better.</p>
+
+<p>Is that really the best we can do? In every one of my computer systems courses
+(networks, distributed, databases), there is a huge emphasis on <em>tradeoffs</em> and
+understanding the underlying details which cause those tradeoffs. Given that
+most people seem to decide between software testing techniques by analyzing the tradeoffs,
+wouldn&rsquo;t it make to use a similar approach, especially since this tradeoff-oriented teaching approach seems to be working?</p>
+
+<p>There are tons of engineers without
+an advanced degree working on cloud platforms, containers, and SDNs.
+For my networks class last fall, I (along with many other students) was able to understand the TCP RFC and implement
+a TCP/IP stack from scratch. At the same time, the only useful test case I wrote for
+my program was this terrible python script which checked that I could transmit
+&lsquo;hello&rsquo; from one node to the other.</p>
+
+<p>Maybe we could see a similarly big impact on software engineering if it became standard for students
+to know all of the common testing techniques, their tradeoffs, and how to implement them.</p>
+
+<h2 id="a-draft-curriculum">A Draft Curriculum</h2>
+
+<p>The curriculum could be similar to that of a computer
+security course, which generally covers networks, cryptography, and
+ the web.</p>
+
+<h3 id="topics">Topics</h3>
+
+<ul>
+<li>Defining the goals of testing</li>
+<li>Defining software quality</li>
+<li>Different testing techniques in-detail
+
+<ul>
+<li>Unit, integration, end-to-end tests</li>
+<li>UI and user testing</li>
+<li>Load and performance testing</li>
+<li>Continuous integration</li>
+<li>Mocks, BDD, TDD, regression tests</li>
+</ul></li>
+<li>Common testing design problems
+
+<ul>
+<li><a href="(http://landing.google.com/sre/workbook/chapters/postmortem-analysis/)">Common types of bugs</a></li>
+<li>Production and dev environment differences</li>
+</ul></li>
+<li>Non-testing techniques
+
+<ul>
+<li>Logging, monitoring, static analysis, comments, data validation, assertions</li>
+</ul></li>
+</ul>
+
+<h3 id="project-ideas">Project Ideas</h3>
+
+<ul>
+<li>Testing a graph algorithm implementation</li>
+<li>Testing a 3-tier web application
+
+<ul>
+<li>Handling different environment variables</li>
+<li>Handling differences between development and production environments</li>
+</ul></li>
+<li>Testing a system/platform like a simple operating system, database, or DNS service</li>
+<li>Building a UI testing framework</li>
+</ul>
+
+<h3 id="homework-quesiton-ideas">Homework Quesiton Ideas</h3>
+
+<p><strong># 1: Computer Security:</strong> When is it more appropriate to use a GET request, and when is it more appropriate to use a POST
+request?</p>
+
+<p><strong>Software Testing:</strong>  When is it more appropriate to use a unit test, and when is it more appropriate to use an integration test
+request?</p>
+
+<p><strong>#2: Computer Network:</strong> Why can’t A and B, both being behind NATs, talk to each other by default? <em>(a NAT spec is given beforehand)</em></p>
+
+<p><strong>Software Testing:</strong> Why can’t A and B, both being in different directories, be tested at the same time by default? <em>(we can give a description of the build spec)</em></p>
+
+<p><strong>#3: Databases:</strong> List the ACID properties. Explain the usefulness of each.</p>
+
+<p><strong>Software Testing:</strong> List 5 software quality characteristics. Explain the usefulness of each. <em>(OK this isn&rsquo;t great..)</em></p>
+
+<h2 id="some-topics-in-detail">Some Topics In-Detail</h2>
+
+<h4 id="defining-software-quality-iso-9126">Defining Software Quality: ISO-9126</h4>
+
+<p>The most well-known software quality model is probably <a href="http://www.sqa.net/iso9126.html">ISO-9126</a>,
+which identifies 6 main characteristics of software quality:</p>
+
+<ul>
+<li>Functionality</li>
+<li>Reliability</li>
+<li>Usability</li>
+<li>Efficiency</li>
+<li>Maintainability</li>
+<li>Portability</li>
+</ul>
+
+<p>I&rsquo;ve personally found it useful to keep these in mind when reviewing my own code.</p>
+
+<h4 id="software-quality-slos">Software Quality: SLOs</h4>
+
+<p>It&rsquo;s fairly difficult understanding how to balance velocity and quality.
+I think <a href="https://landing.google.com/sre/sre-book/chapters/service-level-objectives/">Service Level Objectives</a> are
+a good way to help determine the desired level of software quality.</p>
+
+<h3 id="non-testing-techniques">Non-Testing Techniques</h3>
+
+<p>There are other techniques that also affect software quality outside of testing.</p>
+
+<ul>
+<li>Source code:
+
+<ul>
+<li>Assertions</li>
+<li>Validation methods (for data and configuration)</li>
+<li>Error handling code (<code>try: ... except: ...</code> in Python)</li>
+<li>Type annotations (if needed)</li>
+<li>Comments</li>
+<li>Documentation</li>
+<li>Good variable/method names</li>
+</ul></li>
+<li>Using a static code analyzer (or an IDE)</li>
+<li>VCS:
+
+<ul>
+<li>Commit messages</li>
+<li>Pull request checklists</li>
+</ul></li>
+<li>Logging
+
+<ul>
+<li>Structured Logging (like <a href="https://godoc.org/github.com/sirupsen/logrus#JSONFormatter"><code>logrus.JSONFormatter</code></a>)</li>
+<li>Contextual Logging (like <a href="https://logging.apache.org/log4j/2.x/manual/thread-context.html"><code>log4j.ThreadContext</code></a>)</li>
+</ul></li>
+<li>Monitoring</li>
+<li>Tracing</li>
+<li>Manual testing</li>
+</ul>
+
+
+		
+	</div>
+
+	<div class="pagination">
+		<a href="/posts/big-picture-software-architecture/" class="left arrow">&#8592;</a>
+
+		<a href="#" class="top">Top</a>
+	</div>
+</main>
+
+
+        		<footer>
+			<span>
+			&copy; <time datetime="2019-02-15 15:30:26.568772 &#43;0000 GMT m=&#43;0.092272886">2019</time> . Made with <a href='https://gohugo.io'>Hugo</a> using the <a href='https://github.com/EmielH/tale-hugo/'>Tale</a> theme.
+			</span>
+		</footer>
+
+    </body>
+</html>
