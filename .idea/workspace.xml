@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e41cfc09-2fa1-4ddd-ac64-135e097750d1" name="Default Changelist" comment="Add">
-      <change afterPath="$PROJECT_DIR$/content/posts/testing-silver-bullet.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/posts/testing-curriculum.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/posts/testing-curriculum.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,11 +23,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/content/posts/testing-silver-bullet.md">
+        <entry file="file://$PROJECT_DIR$/content/posts/testing-curriculum.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="180">
-                <caret line="61" column="19" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
+              <first_editor relative-caret-position="114">
+                <caret line="76" column="62" selection-start-line="76" selection-start-column="62" selection-end-line="76" selection-end-column="62" />
               </first_editor>
               <second_editor />
             </state>
@@ -58,6 +57,7 @@
         <option value="$PROJECT_DIR$/content/posts/systems.md" />
         <option value="$PROJECT_DIR$/content/posts/big-picture-software-architecture.md" />
         <option value="$PROJECT_DIR$/content/posts/testing-silver-bullet.md" />
+        <option value="$PROJECT_DIR$/content/posts/testing-curriculum.md" />
       </list>
     </option>
   </component>
@@ -152,7 +152,7 @@
       <workItem from="1549666683036" duration="273000" />
       <workItem from="1549718757572" duration="5695000" />
       <workItem from="1549825302011" duration="22000" />
-      <workItem from="1550228099993" duration="14598000" />
+      <workItem from="1550228099993" duration="15007000" />
     </task>
     <task id="LOCAL-00001" summary="Draft first post (A or B)">
       <created>1549221946304</created>
@@ -200,7 +200,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36091000" />
+    <option name="totallyTimeSpent" value="36500000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -370,11 +370,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/posts/testing-silver-bullet.md">
+    <entry file="file://$PROJECT_DIR$/content/posts/testing-curriculum.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="180">
-            <caret line="61" column="19" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
+          <first_editor relative-caret-position="114">
+            <caret line="76" column="62" selection-start-line="76" selection-start-column="62" selection-end-line="76" selection-end-column="62" />
           </first_editor>
           <second_editor />
         </state>

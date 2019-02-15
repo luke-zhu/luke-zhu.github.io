@@ -35,8 +35,8 @@ wouldn't it make to use a similar approach, especially since this tradeoff-orien
 
 There are tons of engineers without
 an advanced degree working on cloud platforms, containers, and SDNs.
-For my networks class last fall, I (along with many other students) was able to understand the TCP RFC and implement
-a TCP/IP stack from scratch. At the same time, the only useful test case I wrote for
+For my networks class in the fall, I designed and implemented
+a TCP/IP stack from scratch (a fairly common but complex project). At the same time, the only useful test case I wrote for
 my program was this terrible python script which checked that I could transmit
 'hello' from one node to the other.
 
@@ -72,7 +72,9 @@ security course, which generally covers networks, cryptography, and
 - Testing a system/platform like a simple operating system, database, or DNS service
 - Building a UI testing framework
 
-### Homework Quesiton Ideas
+### Homework Questions Ideas
+I've just borrowed some homework questions from course websites and made analogous
+questions that would make sense for a software testing course.
 
 __# 1: Computer Security:__ When is it more appropriate to use a GET request, and when is it more appropriate to use a POST
 request?
