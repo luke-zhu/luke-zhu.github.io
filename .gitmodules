@@ -3,4 +3,5 @@
 	url = https://github.com/EmielH/tale-hugo.git
 [submodule "public"]
 	path = public
-	url = https://github.com/luke-zhu/luke-zhu.github.io.git
+	url = git@github.com:luke-zhu/luke-zhu.github.io.git
+	branch = master
