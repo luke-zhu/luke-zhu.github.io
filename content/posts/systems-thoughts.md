@@ -1,7 +1,7 @@
 ---
 title: "Self Systems Thoughts"
 date: 2020-02-16T19:04:27Z
-draft: false
+draft: true
 ---
 
 I generally keep my perspective of life to myself. However, it comes up a bit too often and I've noticed that I have a hard time explaining it to others, because of the jargon I've accrued and my lack of simple examples.
