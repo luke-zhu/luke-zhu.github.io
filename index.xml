@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Luke Zhu</title>
@@ -6,21 +6,10 @@
     <description>Recent content on Luke Zhu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 16 Feb 2020 19:04:27 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 15 Feb 2019 10:55:35 +0000</lastBuildDate>
     
 	<atom:link href="https://luke-zhu.github.io/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Self Systems Thoughts</title>
-      <link>https://luke-zhu.github.io/posts/systems-thoughts/</link>
-      <pubDate>Sun, 16 Feb 2020 19:04:27 +0000</pubDate>
-      
-      <guid>https://luke-zhu.github.io/posts/systems-thoughts/</guid>
-      <description>I generally keep my perspective of life to myself. However, it comes up a bit too often and I&amp;rsquo;ve noticed that I have a hard time explaining it to others, because of the jargon I&amp;rsquo;ve accrued and my lack of simple examples.
-Below is just a semi-structured list of things which describe my worldview, hopefully in a form that makes sense to other people.
- I view myself and my life as a black box system.</description>
-    </item>
     
     <item>
       <title>A Better Software Testing Curriculum</title>
